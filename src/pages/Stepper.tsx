@@ -1,6 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import TextMobileStepper from "../components/StepperComponent";
+//import TextMobileStepper from "../components/StepperComponent";
 
 const Stepper: FunctionComponent = () => {
   const navigate = useNavigate();
