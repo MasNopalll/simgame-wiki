@@ -58,7 +58,7 @@ const Stepper: FunctionComponent = () => {
         <div className="absolute top-[75px] left-[calc(50%_-_376.5px)] box-border w-0.5 h-[175px] border-r-[2px] border-solid border-silver-300" />
         <div className="absolute top-[268px] left-[calc(50%_-_376.5px)] box-border w-0.5 h-[85px] border-r-[2px] border-solid border-silver-300" />
       </div>
-      <TextMobileStepper/>
+      // <TextMobileStepper/>
       <div className="absolute top-[calc(50%_+_159px)] left-[calc(50%_-_394px)] bg-gray-200 w-[788px] h-[143px] overflow-hidden text-left text-5xl">
         <div className="absolute top-[53px] left-[69px] w-[200px] h-[29px] text-blueviolet-100">
           <div className="absolute top-[0%] left-[0%] font-semibold">
