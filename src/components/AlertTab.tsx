@@ -9,7 +9,7 @@ export default function AlertTab(): JSX.Element {
       <span>
         <p>
           <span className="font-bold">Info alert! </span>
-          Change a few things up and try submitting again.
+          Jumlah penyihir yang berlebihan akan mempengaruhi MANA.
         </p>
       </span>
     </Alert>

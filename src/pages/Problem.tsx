@@ -35,9 +35,10 @@ const Problem: FunctionComponent = () => {
         propColor1="#faca15"
       />
 
-      <AlertTab />
+    <AlertTab/>
     </div>
   );
+  
 };
 
 export default Problem;
