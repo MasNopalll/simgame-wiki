@@ -1,6 +1,7 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import MagicContainer from "../components/ElfMysticContainer";
+import AlertTab from "../components/AlertTab";
 
 const Problem: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -33,6 +34,8 @@ const Problem: FunctionComponent = () => {
         propColor="#faca15"
         propColor1="#faca15"
       />
+
+      <AlertTab />
     </div>
   );
 };
