@@ -1,29 +1,33 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  plugins: [require("flowbite/plugin")],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
         darkslategray: {
-          "100": "#3c414a",
-          "200": "#374151",
-          "300": "#263243",
+          100: "#3c414a",
+          200: "#374151",
+          300: "#263243",
         },
         white: "#fff",
         silver: {
-          "100": "#c4c5c9",
-          "200": "#c9c3c3",
-          "300": "rgba(201, 195, 195, 0.5)",
+          100: "#c4c5c9",
+          200: "#c9c3c3",
+          300: "rgba(201, 195, 195, 0.5)",
         },
         black: "#000",
         gray: {
-          "100": "#1f2937",
-          "200": "#111827",
+          100: "#1f2937",
+          200: "#111827",
         },
         lavender: "#e2e3fd",
         blueviolet: {
-          "100": "#4f46e5",
-          "200": "rgba(79, 70, 229, 0.5)",
+          100: "#4f46e5",
+          200: "rgba(79, 70, 229, 0.5)",
         },
         darkblue: "#221aa9",
         darkgray: "#979aa0",
