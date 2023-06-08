@@ -1,7 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import MagicContainer from "../components/ElfMysticContainer";
-import AlertTab from "../components/AlertTab";
 
 const Problem: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -20,6 +19,7 @@ const Problem: FunctionComponent = () => {
         src="/icoutlinehome.svg"
         onClick={onIcoutlineHomeClick}
       />
+      
       <MagicContainer
         elfMysticCombinationText="Pastikan untuk tidak terlalu memaksakan diri sehingga Anda memiliki cukup militer untuk melindungi tanah Anda."
         elfMysticCombinationText2="WARNING"
@@ -35,7 +35,6 @@ const Problem: FunctionComponent = () => {
         propColor1="#faca15"
       />
 
-    <AlertTab/>
     </div>
   );
   
