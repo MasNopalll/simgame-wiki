@@ -2,6 +2,7 @@ import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import UtopiaWikiContainer from "../components/UtopiaWikiContainer";
 import LabelContainer from "../components/LabelContainer";
+import FooterComp from "../components/FooterComponent";
 
 const LandingPage1: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -49,10 +50,12 @@ const LandingPage1: FunctionComponent = () => {
         dimensions="/materialsymbolsstrategy5.svg"
         dimensionsId="/materialsymbolsstrategy4.svg"
         frame5Top="1687px"
-        frame5Width="1199px"
-        propLeft="416px"
-        propLeft1="786px"
+        frame5Width="1280px"
+        propLeft="443px"
+        propLeft1="840px"
+        
       />
+      
     </div>
   );
 };

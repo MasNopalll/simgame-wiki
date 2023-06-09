@@ -12,10 +12,7 @@ const FAQ: FunctionComponent = () => {
 
   return (
     <div className="relative bg-darkslategray-100 w-full h-[2388px] overflow-hidden text-right text-77xl text-white font-inter">
-      <b className="absolute top-[30px] left-[866px]">variasi 1</b>
-      <b className="absolute top-[811px] left-[852px]">variasi 2</b>
-      <b className="absolute top-[1374px] left-[1179px] inline-block text-left w-[68px]">
-        3
+      <b className="absolute top-[1374px] left-[1179px] ">
       </b>
       <img
         className="absolute top-[0px] left-[50px] w-[75px] h-[63px] overflow-hidden cursor-pointer"
@@ -23,12 +20,10 @@ const FAQ: FunctionComponent = () => {
         src="/icoutlinehome.svg"
         onClick={onIcoutlineHomeClick}
       />
-      <div className="absolute top-[146px] left-[50px] bg-gray-200 w-[1280px] h-[635px] overflow-hidden text-left text-6xl">
+      <div className="absolute top-[146px] left-[50px] bg-gray-200 w-[1280px] overflow-hidden text-left text-6xl">
         <AccordionCom />
       </div>
-      <div className="absolute top-[937px] left-[50px] bg-gray-200 w-[1280px] h-[635px] overflow-hidden text-left text-6xl">
-        <AccordionCom />
-      </div>
+      
     </div>
   );
 };

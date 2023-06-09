@@ -1,6 +1,7 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import PageFooter from "../components/PageFooter";
+import FooterComp from "../components/FooterComponent";
 
 const BottomNavigation: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -17,8 +18,10 @@ const BottomNavigation: FunctionComponent = () => {
         src="/icoutlinehome.svg"
         onClick={onIcoutlineHomeClick}
       />
+      
       <PageFooter />
       <div className="absolute top-[499px] left-[0px] bg-gray-200 w-[1280px] h-[97px] overflow-hidden text-left text-3xs text-silver-200">
+      
         <div className="absolute top-[calc(50%_-_5.5px)] left-[calc(50%_-_576px)] mix-blend-normal">
           This page was last modified on 17 April 2023, at 09:41.
         </div>
@@ -37,6 +40,7 @@ const BottomNavigation: FunctionComponent = () => {
       </div>
       <b className="absolute top-[95px] left-[866px]">variasi 1</b>
       <b className="absolute top-[354px] left-[866px]">variasi 2</b>
+      
     </div>
   );
 };

@@ -67,7 +67,7 @@ const MacBookAir1: FunctionComponent = () => {
         <div className="relative font-semibold">TROUBLESHOOTING</div>
       </Link>
       <a
-        className="[text-decoration:none] absolute top-[536px] left-[192px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[18px] items-start justify-center cursor-pointer text-[inherit] border-[1px] border-solid border-silver-200"
+        className="[text-decoration:none] absolute top-[166px] left-[1122px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[18px] items-start justify-center cursor-pointer text-[inherit] border-[1px] border-solid border-silver-200"
         onClick={onFrameLink2Click}
       >
         <div className="relative font-semibold">IMPORTANT FACT</div>

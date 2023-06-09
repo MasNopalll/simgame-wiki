@@ -10,6 +10,8 @@ const ImportantFact: FunctionComponent = () => {
 
   return (
     <div className="relative bg-darkslategray-100 w-full h-[1735px] overflow-hidden text-left text-[inherit] text-white font-inherit">
+      <b className="absolute top-[30px] left-[866px] text-77xl">variasi 1</b>
+      <b className="absolute top-[619px] left-[852px] text-77xl">variasi 2</b>
       <img
         className="absolute top-[0px] left-[0px] w-[75px] h-[63px] overflow-hidden cursor-pointer"
         alt=""
