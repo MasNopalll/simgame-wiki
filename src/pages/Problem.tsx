@@ -10,9 +10,11 @@ const Problem: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="relative bg-darkslategray-100 w-full h-[843px] overflow-hidden text-right text-77xl text-white font-inter">
+    <div className="relative bg-darkslategray-100 w-full h-[2000px] overflow-hidden text-right text-77xl text-white font-inter">
       <b className="absolute top-[30px] left-[872px]">variasi 1</b>
-      <b className="absolute top-[416px] left-[858px]">variasi 2</b>
+      <b className="absolute top-[416px] left-[872px]">variasi 2</b>
+      <b className="absolute top-[802px] left-[872px]">variasi 3</b>
+      <b className="absolute top-[1188px] left-[872px]">variasi 4</b>
       <img
         className="absolute top-[0px] left-[0px] w-[75px] h-[63px] overflow-hidden cursor-pointer"
         alt=""
@@ -34,8 +36,20 @@ const Problem: FunctionComponent = () => {
         propColor="#faca15"
         propColor1="#faca15"
       />
-
-    </div>
+       <MagicContainer
+      elfMysticCombinationText="Kombinasi Elf dan Mystic sangat populer di Utopia-game karena kedua ras ini memiliki kekuatan sihir yang kuat. Elf memiliki kemampuan sihir alami dan cenderung lebih cepat dalam produksi sihir daripada ras lainnya."
+      elfMysticCombinationText2="TIPS"
+      propTop="918px"
+       />
+      <MagicContainer
+      elfMysticCombinationText="Kombinasi Elf dan Mystic sangat populer di Utopia-game karena kedua ras ini memiliki kekuatan sihir yang kuat. Elf memiliki kemampuan sihir alami dan cenderung lebih cepat dalam produksi sihir daripada ras lainnya."
+      elfMysticCombinationText2="INFO"
+      propTop="1304px"
+      propColor="#5290e7"
+      propColor1="#5290e7"
+      />
+  </div>
+    
   );
   
 };
