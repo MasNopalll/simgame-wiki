@@ -51,7 +51,7 @@ const MacBookAir1: FunctionComponent = () => {
   return (
     <div className="relative bg-darkslategray-100 w-full h-[832px] overflow-hidden text-left text-smi text-black font-inter">
       <b className="absolute top-[80px] left-[calc(50%_-_88px)] text-xl text-white">
-        PATTERN LIBRARY
+        PATTERN LIBRARY FOR WIKI
       </b>
       <a
         className="[text-decoration:none] absolute top-[166px] left-[192px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[35px] items-start justify-center cursor-pointer text-[inherit] border-[1px] border-solid border-silver-200"
