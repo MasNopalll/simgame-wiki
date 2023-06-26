@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import DefaultForm from "../components/FormComponent";
 import React, { useState } from 'react';
 
-const Troubleshooting: FunctionComponent = () => {
+const Calculator: FunctionComponent = () => {
   const navigate = useNavigate();
 
   const onIcoutlineHomeClick = useCallback(() => {
@@ -28,4 +28,4 @@ const Troubleshooting: FunctionComponent = () => {
   );
 };
 
-export default Troubleshooting;
+export default Calculator;

@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { Button, Label, TextInput, Select } from 'flowbite-react';
 
 export default function CalculatorForm() {
-    const [rasOffensive, setRasOffensive] = useState('');
+  const [rasOffensive, setRasOffensive] = useState('');
   const [jumlahEliteOffensive, setJumlahEliteOffensive] = useState('');
   const [jumlahSpesialisOffensive, setJumlahSpesialisOffensive] = useState('');
   const [totalPointOffensive, setTotalPointOffensive] = useState(0);
-     const [rasDefensive, setRasDefensive] = useState('');
+  const [rasDefensive, setRasDefensive] = useState('');
   const [jumlahEliteDefensive, setJumlahEliteDefensive] = useState('');
   const [jumlahSpesialisDefensive, setJumlahSpesialisDefensive] = useState('');
   const [totalPointDefensive, setTotalPointDefensive] = useState(0);
@@ -71,10 +71,10 @@ export default function CalculatorForm() {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex items-center h-screen">
     <div className="grid grid-cols-2 gap-20">
       <div className="bg-white rounded-lg shadow p-6">
-      <h2 className="text-3xl text-gray-800 font-semibold justify-center items-center">Poin Serangan</h2>
+      <h2 className="text-1xl text-gray-800 font-semibold items-center">Poin Serangan</h2>
         <form className="flex flex-col gap-4 items-left">
           <div className="max-w-md" id="select">
             <div className="text-white mb-2 block">

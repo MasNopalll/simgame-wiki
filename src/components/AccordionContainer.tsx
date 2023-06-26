@@ -40,7 +40,6 @@ const AccordionContainer: FunctionComponent = () => {
         </div>
         <div className="relative box-border w-[1080px] h-0.5 border-t-[2px] border-solid border-darkslategray-100" />
       </div>
-      <AccordionCom/>
     </div>
   );
 };

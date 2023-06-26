@@ -2,7 +2,7 @@ import { FunctionComponent } from "react";
 
 const UtopiaWikiContainer: FunctionComponent = () => {
   return (
-    <div className="absolute top-[1129px] left-[50px] bg-gray-200 w-[1280px] h-[558px] overflow-hidden text-left text-77xl text-white font-inter">
+    <div className="absolute top-[1130px] left-[50px] bg-gray-200 w-[1280px] h-[558px] overflow-hidden text-left text-77xl text-white font-inter">
       <b className="absolute top-[58px] left-[37px]">UTOPIA WIKI</b>
       <div className="absolute top-[216px] left-[37px] text-xl tracking-[0.1em] font-light inline-block w-[609px] h-[114px]">
         Welcome to Utopia, a world like no other, full of war, intrigue,

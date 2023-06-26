@@ -1,136 +1,218 @@
 import { FunctionComponent, useCallback } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-const MacBookAir1: FunctionComponent = () => {
+const MacBookAir2: FunctionComponent = () => {
   const navigate = useNavigate();
 
-  const onFrameLinkClick = useCallback(() => {
+  const onNAVIGATIONTABS1Click = useCallback(() => {
     navigate("/navbar");
   }, [navigate]);
 
-  const onFrameLink1Click = useCallback(() => {
-    navigate("/troubleshooting");
+  const onJUMBOTRON2TextClick = useCallback(() => {
+    navigate("/jumbotron");
   }, [navigate]);
 
-  const onFrameLink2Click = useCallback(() => {
-    navigate("/important-fact");
+  const onPARAGRAPH2TextClick = useCallback(() => {
+    navigate("/paragraph");
   }, [navigate]);
 
-  const onFrameLink3Click = useCallback(() => {
-    navigate("/landing-page-1");
-  }, [navigate]);
-
-  const onFrameLink4Click = useCallback(() => {
-    navigate("/table");
-  }, [navigate]);
-
-  const onFrameLink5Click = useCallback(() => {
-    navigate("/overview");
-  }, [navigate]);
-
-  const onFrameLink6Click = useCallback(() => {
-    navigate("/bottom-navigation");
-  }, [navigate]);
-
-  const onFrameLink7Click = useCallback(() => {
+  const onSTEPPER3TextClick = useCallback(() => {
     navigate("/stepper");
   }, [navigate]);
 
-  const onFrameLink8Click = useCallback(() => {
-    navigate("/faq");
-  }, [navigate]);
-
-  const onFrameLink9Click = useCallback(() => {
+  const onPROBLEMTROUBLESHOOTINGClick = useCallback(() => {
     navigate("/problem");
   }, [navigate]);
 
-  const onFrameLink10Click = useCallback(() => {
+  const onTABLE3TextClick = useCallback(() => {
+    navigate("/table");
+  }, [navigate]);
+
+  const onBOTTOMNAVIGATION1Click = useCallback(() => {
+    navigate("/bottom-navigation");
+  }, [navigate]);
+
+  const onACCORDION3TextClick = useCallback(() => {
+    navigate("/accordion");
+  }, [navigate]);
+
+  const onMENU1TextClick = useCallback(() => {
     navigate("/content-list");
+  }, [navigate]);
+
+  const onIMPORTANTFACT1Click = useCallback(() => {
+    navigate("/important-fact");
+  }, [navigate]);
+
+  const onCALCULATOR1TextClick = useCallback(() => {
+    navigate("/calculator");
+  }, [navigate]);
+
+  const onLANDINGPAGETextClick = useCallback(() => {
+    navigate("/landing-page-1");
+  }, [navigate]);
+
+  const onOVERVIEWTextClick = useCallback(() => {
+    navigate("/overview");
+  }, [navigate]);
+
+  const onLISTRACEClick = useCallback(() => {
+    navigate("/how-to-play");
+  }, [navigate]);
+
+  const onHOWTOPLAYClick = useCallback(() => {
+    navigate("/how-to-play");
+  }, [navigate]);
+
+  const onHOWTOATTACKClick = useCallback(() => {
+    navigate("/how-to-attack");
+  }, [navigate]);
+
+  const onFAQTextClick = useCallback(() => {
+    navigate("/faq");
+  }, [navigate]);
+
+  const onBREADCRUMBSTextClick = useCallback(() => {
+    navigate("/breadcrumbs");
+  }, [navigate]);
+
+  const onGLOSSARYTextClick = useCallback(() => {
+    navigate("/glossary");
   }, [navigate]);
 
   return (
     <div className="relative bg-darkslategray-100 w-full h-[832px] overflow-hidden text-left text-smi text-black font-inter">
-      <b className="absolute top-[80px] left-[calc(50%_-_88px)] text-xl text-white">
-        PATTERN LIBRARY FOR WIKI
-      </b>
-      <a
-        className="[text-decoration:none] absolute top-[166px] left-[192px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[35px] items-start justify-center cursor-pointer text-[inherit] border-[1px] border-solid border-silver-200"
-        onClick={onFrameLinkClick}
-      >
-        <div className="relative font-semibold">NAVIGATION</div>
-      </a>
-      <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[351px] left-[192px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col items-center justify-center text-[inherit] border-[1px] border-solid border-silver-200"
-        to="/troubleshooting"
-        onClick={onFrameLink1Click}
-      >
-        <div className="relative font-semibold">CALCULATOR</div>
-      </Link>
-      <a
-        className="[text-decoration:none] absolute top-[166px] left-[1122px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[18px] items-start justify-center cursor-pointer text-[inherit] border-[1px] border-solid border-silver-200"
-        onClick={onFrameLink2Click}
-      >
-        <div className="relative font-semibold">IMPORTANT FACT</div>
-      </a>
-      <a
-        className="[text-decoration:none] absolute top-[166px] left-[378px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[27px] items-start justify-center cursor-pointer text-[inherit] border-[1px] border-solid border-silver-200"
-        onClick={onFrameLink3Click}
-      >
-        <div className="relative font-semibold">LANDING PAGE</div>
-      </a>
-      <a
-        className="[text-decoration:none] absolute top-[351px] left-[378px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[55px] items-start justify-center cursor-pointer text-[inherit] border-[1px] border-solid border-silver-200"
-        onClick={onFrameLink4Click}
-      >
-        <div className="relative font-semibold">TABLE</div>
-      </a>
-      <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[166px] left-[564px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col items-center justify-center text-[inherit] border-[1px] border-solid border-silver-200"
-        to="/overview"
-        onClick={onFrameLink5Click}
-      >
-        <div className="relative font-semibold">OVERVIEW</div>
-      </Link>
-      <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[351px] left-[564px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[35px] items-start justify-center text-center text-[inherit] border-[1px] border-solid border-silver-200"
-        to="/bottom-navigation"
-        onClick={onFrameLink6Click}
-      >
-        <div className="relative font-semibold">
-          <p className="m-0">{`BOTTOM `}</p>
-          <p className="m-0">NAVIGATION</p>
+      <div className="absolute top-[222px] left-[261px] bg-white w-[333px] h-[482px] overflow-hidden">
+        <div className="absolute top-[0px] left-[0px] bg-gray-200 w-[333px] h-[61px] overflow-hidden text-6xl text-white">
+          <div className="absolute top-[15px] left-[calc(50%_-_82.5px)] font-semibold">
+            COMPONENT
+          </div>
         </div>
-      </Link>
-      <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[166px] left-[750px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col py-0 px-[46px] items-start justify-center text-[inherit] border-[1px] border-solid border-silver-200"
-        to="/stepper"
-        onClick={onFrameLink7Click}
-      >
-        <div className="relative font-semibold">STEPPER</div>
-      </Link>
-      <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[351px] left-[750px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col items-center justify-center text-[inherit] border-[1px] border-solid border-silver-200"
-        to="/faq"
-        onClick={onFrameLink8Click}
-      >
-        <div className="relative font-semibold">FAQ</div>
-      </Link>
-      <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[166px] left-[936px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col items-center justify-center text-[inherit] border-[1px] border-solid border-silver-200"
-        to="/problem"
-        onClick={onFrameLink9Click}
-      >
-        <div className="relative font-semibold">ANNOUNCEMENT</div>
-      </Link>
-      <Link
-        className="cursor-pointer [text-decoration:none] absolute top-[351px] left-[936px] rounded-xl bg-white box-border w-[152px] h-[141px] overflow-hidden flex flex-col items-center justify-center text-[inherit] border-[1px] border-solid border-silver-200"
-        to="/content-list"
-        onClick={onFrameLink10Click}
-      >
-        <div className="relative font-semibold">CONTENT LIST</div>
-      </Link>
+        <div
+          className="absolute top-[calc(50%_-_171px)] left-[calc(50%_-_141.5px)] font-medium cursor-pointer"
+          onClick={onNAVIGATIONTABS1Click}
+        >
+          NAVIGATION TABS (1)
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_137px)] left-[calc(50%_-_141.5px)] font-medium cursor-pointer"
+          onClick={onJUMBOTRON2TextClick}
+        >
+          JUMBOTRON (2)
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_105px)] left-[calc(50%_-_141.5px)] font-medium cursor-pointer"
+          onClick={onPARAGRAPH2TextClick}
+        >
+          PARAGRAPH (2)
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_74px)] left-[calc(50%_-_141.5px)] font-medium inline-block w-[97px] h-[22px] cursor-pointer"
+          onClick={onSTEPPER3TextClick}
+        >
+          STEPPER (3)
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_41px)] left-[calc(50%_-_141.5px)] font-medium cursor-pointer"
+          onClick={onPROBLEMTROUBLESHOOTINGClick}
+        >
+          PROBLEM / TROUBLESHOOTING (4)
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_9px)] left-[calc(50%_-_141.5px)] font-medium inline-block w-[69px] h-[21px] cursor-pointer"
+          onClick={onTABLE3TextClick}
+        >
+          TABLE (3)
+        </div>
+        <div
+          className="absolute top-[calc(50%_+_23px)] left-[calc(50%_-_141.5px)] font-medium cursor-pointer"
+          onClick={onBOTTOMNAVIGATION1Click}
+        >{`BOTTOM NAVIGATION (1) `}
+        
+        </div>
+
+        <div className="absolute top-[calc(50%_+_55px)] left-[calc(50%_-_141.5px)] font-medium inline-block w-[141px] h-[21px] cursor-pointer"
+        onClick={onBREADCRUMBSTextClick}
+        >
+          BREADCRUMBS (1)
+        </div>
+        <div
+          className="absolute top-[calc(50%_+_86px)] left-[calc(50%_-_141.5px)] font-medium inline-block w-[141px] h-[21px] cursor-pointer"
+          onClick={onACCORDION3TextClick}
+        >
+          ACCORDION (3)
+        </div>
+        <div
+          className="absolute top-[calc(50%_+_118px)] left-[calc(50%_-_141.5px)] font-medium inline-block w-[141px] h-[21px] cursor-pointer"
+          onClick={onMENU1TextClick}
+        >
+          MENU (1)
+        </div>
+        <div
+          className="absolute top-[calc(50%_+_150px)] left-[calc(50%_-_141.5px)] font-medium inline-block w-[141px] h-[21px] cursor-pointer"
+          onClick={onIMPORTANTFACT1Click}
+        >
+          IMPORTANT FACT (1)
+        </div>
+        <div
+          className="absolute top-[calc(50%_+_182px)] left-[calc(50%_-_141.5px)] font-medium inline-block w-[141px] h-[21px] cursor-pointer"
+          onClick={onCALCULATOR1TextClick}
+        >
+          CALCULATOR (1)
+        </div>
+      </div>
+      <div className="absolute top-[222px] left-[694px] bg-white w-[325px] h-[482px] overflow-hidden">
+        <div className="absolute top-[0px] left-[0px] bg-gray-200 w-[325px] h-[61px] overflow-hidden text-6xl text-white">
+          <div className="absolute top-[15px] left-[calc(50%_-_33.5px)] font-semibold">
+            PAGE
+          </div>
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_171px)] left-[calc(50%_-_137.5px)] font-medium cursor-pointer"
+          onClick={onLANDINGPAGETextClick}
+        >
+          LANDING PAGE
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_144px)] left-[calc(50%_-_137.5px)] font-medium cursor-pointer"
+          onClick={onOVERVIEWTextClick}
+        >
+          OVERVIEW
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_117px)] left-[calc(50%_-_137.5px)] font-medium cursor-pointer"
+          onClick={onLISTRACEClick}
+        >{`LIST RACE & PERSONALITY`}</div>
+        <div
+          className="absolute top-[calc(50%_-_90px)] left-[calc(50%_-_137.5px)] font-medium cursor-pointer"
+          onClick={onHOWTOPLAYClick}
+        >
+          HOW TO PLAY
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_63px)] left-[calc(50%_-_137.5px)] font-medium cursor-pointer"
+          onClick={onHOWTOATTACKClick}
+        >
+          HOW TO ATTACK
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_36px)] left-[calc(50%_-_137.5px)] font-medium cursor-pointer"
+          onClick={onFAQTextClick}
+        >
+          FAQ
+        </div>
+        <div
+          className="absolute top-[calc(50%_-_9px)] left-[calc(50%_-_137.5px)] font-medium cursor-pointer"
+          onClick={onGLOSSARYTextClick}
+        >
+          GLOSSARY
+        </div>
+      </div>
+      <b className="absolute top-[81px] left-[calc(50%_-_427px)] text-[40px] text-white">
+        PATTERN LIBRARY WIKI SIMULATION GAME
+      </b>
     </div>
   );
 };
 
-export default MacBookAir1;
+export default MacBookAir2;
