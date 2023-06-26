@@ -71,8 +71,8 @@ export default function CalculatorForm() {
   };
 
   return (
-    <div className="flex items-center h-screen">
-    <div className="grid grid-cols-2 gap-20">
+    <div className="flex justify-center items-center h-screen">
+    <div className="grid grid-cols-2 gap-20 justify-center items-center">
       <div className="bg-white rounded-lg shadow p-6">
       <h2 className="text-1xl text-gray-800 font-semibold items-center">Poin Serangan</h2>
         <form className="flex flex-col gap-4 items-left">
@@ -121,7 +121,7 @@ export default function CalculatorForm() {
       </div>
 
       <div className="bg-white rounded-lg shadow p-6">
-      <h2 className="text-3xl text-gray-800 font-semibold justify-center">Poin Pertahanan</h2>
+      <h2 className="text-1xl text-gray-800 font-semibold justify-center">Poin Pertahanan</h2>
         <form className="flex flex-col gap-4 items-left">
           <div className="max-w-md" id="select">
             <div className="text-white mb-2 block">

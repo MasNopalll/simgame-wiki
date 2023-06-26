@@ -64,7 +64,7 @@ const MilitarySection: FunctionComponent = () => {
             Tipe Serangan
           </div>
         </div>
-        <div className="absolute top-[911px] left-[78px] w-[200px] h-[29px] text-5xl">
+        <div className="absolute top-[911px] left-[78px] w-[500px] h-[29px] text-5xl">
           <div className="absolute top-[0%] left-[0%] font-semibold">
             Melancarkan Serangan
           </div>

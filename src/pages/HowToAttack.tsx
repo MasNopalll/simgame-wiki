@@ -19,7 +19,7 @@ const HowToAttack: FunctionComponent = () => {
         src="/icoutlinehome.svg"
         onClick={onIcoutlineHomeClick}
       />
-      <div className="absolute top-[247px] left-[0px] bg-gray-200 w-[1469px] h-[2163px] overflow-hidden">
+      <div className="absolute top-[247px] left-[20px] bg-gray-200 w-[1469px] h-[2163px] overflow-hidden">
         
         <MilitarySection />
         
