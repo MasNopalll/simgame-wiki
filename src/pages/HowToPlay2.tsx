@@ -122,7 +122,9 @@ const HowToPlay2: FunctionComponent = () => {
                   className="absolute top-[0%] left-[0%] font-semibold cursor-pointer"
                   onClick={onHeading2Text1Click}
                 >
-                  Membaca guides
+                  Membaca 
+                  <br/>
+                  guides
                 </div>
               </div>
               <div

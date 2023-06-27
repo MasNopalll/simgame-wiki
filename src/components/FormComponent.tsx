@@ -71,9 +71,9 @@ export default function CalculatorForm() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen">
-    <div className="grid grid-cols-2 gap-20 justify-center items-center">
-      <div className="bg-white rounded-lg shadow p-6">
+    <div className="flex justify-center items-center mt-4 mt-40">
+    <div className="grid grid-cols-2 gap-4 justify-center items-center">
+      <div className="bg-white rounded-lg shadow px-8 pb-6">
       <h2 className="text-1xl text-gray-800 font-semibold items-center">Poin Serangan</h2>
         <form className="flex flex-col gap-4 items-left">
           <div className="max-w-md" id="select">
@@ -96,7 +96,8 @@ export default function CalculatorForm() {
               value={jumlahEliteOffensive}
               onChange={(e) => setJumlahEliteOffensive(e.target.value)}
               required
-              type="number"
+                type="number"
+                className="text-white mr-6"
             />
           </div>
           <div>
@@ -108,7 +109,8 @@ export default function CalculatorForm() {
               value={jumlahSpesialisOffensive}
               onChange={(e) => setJumlahSpesialisOffensive(e.target.value)}
               required
-              type="number"
+                type="number"
+                className="text-white mr-5"
             />
           </div>
           <Button type="submit" onClick={calculatePoint1}>
@@ -117,10 +119,14 @@ export default function CalculatorForm() {
           {totalPointOffensive !== 0 && (
             <Label htmlFor="total1" value={`Total Point Penyerangan: ${totalPointOffensive}`} className="text-black" />
           )}
+            {totalPointOffensive == 0 && (
+              <span  className="py-0" >-</span>
+            
+          )}
         </form>
       </div>
 
-      <div className="bg-white rounded-lg shadow p-6">
+      <div className="bg-white rounded-lg shadow px-8 pb-6 ">
       <h2 className="text-1xl text-gray-800 font-semibold justify-center">Poin Pertahanan</h2>
         <form className="flex flex-col gap-4 items-left">
           <div className="max-w-md" id="select">
@@ -143,7 +149,8 @@ export default function CalculatorForm() {
               value={jumlahEliteDefensive}
               onChange={(e) => setJumlahEliteDefensive(e.target.value)}
               required
-              type="number"
+                type="number"
+                className="text-white mr-6"
             />
           </div>
           <div>
@@ -155,14 +162,20 @@ export default function CalculatorForm() {
               value={jumlahSpesialisDefensive}
               onChange={(e) => setJumlahSpesialisDefensive(e.target.value)}
               required
-              type="number"
+                type="number"
+                className="text-white mr-6"
             />
           </div>
           <Button type="submit" onClick={calculatePoint2}>
             Calculate
           </Button>
-          {totalPointDefensive !== 0 && (
-            <Label htmlFor="total2" value={`Total Point Pertahanan: ${totalPointDefensive}`} className="text-black" />
+                {totalPointDefensive !== 0 && (
+            <Label htmlFor="total2" value={`Total Point Pertahanan: ${totalPointDefensive}`} className="text-black w-100" />
+            
+          )}
+            {totalPointDefensive == 0 && (
+              <span>-</span>
+            
           )}
         </form>
       </div>

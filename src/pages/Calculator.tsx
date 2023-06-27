@@ -20,7 +20,7 @@ const Calculator: FunctionComponent = () => {
         src="/icoutlinehome.svg"
         onClick={onIcoutlineHomeClick}
       />
-      <div className="absolute top-[146px] left-[50px] bg-gray-200 w-[1280px] overflow-hidden text-left text-6xl">
+      <div className="absolute top-[100px] left-[50px] bg-gray-200 w-[1280px] overflow-hidden text-left text-6xl">
         <DefaultForm/>
       </div>
       

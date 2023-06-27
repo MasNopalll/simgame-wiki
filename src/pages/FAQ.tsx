@@ -60,10 +60,12 @@ const FAQ: FunctionComponent = () => {
           </div>
           <SearchContainer />
           <FAQContainer sectionTitle="FAQ" />
-          <div className="absolute top-[125.5px] left-[1108.5px] box-border w-px h-[861px] border-r-[1px] border-solid border-silver-200" />
-          <FooterContainer productId="/riinstagramfill.svg" />
-        </div>
+         
       </div>
+        <FooterContainer productId="/riinstagramfill.svg"  propTop="1010px"  />
+      <div className="absolute top-[125.5px] left-[1108.5px] box-border w-px h-[661px] border-r-[1px] border-solid border-silver-200" />
+        
+        </div>
     </div>
   );
 };

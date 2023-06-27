@@ -23,12 +23,12 @@ const HowToAttack: FunctionComponent = () => {
         
         <MilitarySection />
         
-        <div className="absolute top-[calc(50%_+_789.5px)] left-[calc(50%_-_384.5px)] bg-gray-100 w-[627px] h-[109px]" />
-        <div className="absolute top-[calc(50%_+_833.5px)] left-[calc(50%_-_362.5px)] inline-block w-[632px] h-[77px] mix-blend-normal">
+        <div className=" absolute top-[calc(32%_+_789.5px)] left-[calc(50%_-_384.5px)] bg-gray-100 w-[627px] h-[109px]" />
+        <div className="  absolute top-[calc(32%_+_833.5px)] left-[calc(50%_-_362.5px)] inline-block w-[632px] h-[77px] mix-blend-normal">
           Pastikan untuk tidak terlalu memaksakan diri sehingga Anda memiliki
           cukup militer untuk melindungi tanah Anda.
         </div>
-        <div className="absolute top-[calc(50%_+_800.5px)] left-[calc(50%_-_362.5px)] font-semibold mix-blend-normal">
+        <div className=" absolute top-[calc(32%_+_800.5px)] left-[calc(50%_-_362.5px)] font-semibold mix-blend-normal">
           WARNING
         </div>
         <div className="absolute top-[1433px] left-[calc(50%_-_384.5px)] w-[800px] h-[100px] text-5xl text-white">

@@ -117,7 +117,9 @@ const HowToPlay: FunctionComponent = () => {
             <div className="absolute top-[calc(50%_-_111.5px)] left-[calc(50%_-_302px)] bg-gray-200 box-border w-[664px] h-[127px] overflow-hidden text-sm border-[1px] border-solid border-white">
               <div className="absolute top-[52px] left-[41px] w-[200px] h-[29px] text-blueviolet-100">
                 <div className="absolute top-[0%] left-[0%] font-semibold">
-                  Membaca guides
+                 Membaca
+                  <br/>
+                 guides
                 </div>
               </div>
               <div className="absolute h-[11.81%] w-[2.29%] top-[40.94%] left-[3.99%] font-semibold text-blueviolet-100 inline-block">
