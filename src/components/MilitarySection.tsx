@@ -98,8 +98,16 @@ const MilitarySection: FunctionComponent = () => {
           pencuri kita menyelinap di wilayah mereka, mereka mungkin mengambil
           tindakan sendiri untuk menghindari invasi kita.
         </div>
-        <div className="absolute top-[261px] left-[41px] rounded-[50%] bg-silver-400 box-border w-5 h-5 border-[2px] border-solid border-silver-400" />
-        <div className="absolute top-[667px] left-[41px] rounded-[50%] bg-silver-400 box-border w-5 h-5 border-[2px] border-solid border-silver-400" />
+        <img
+          className="absolute top-[261px] left-[41px] w-5 h-5"
+          alt=""
+          src="/ellipse-13.svg"
+        />
+        <img
+          className="absolute top-[667px] left-[41px] w-5 h-5"
+          alt=""
+          src="/ellipse-13.svg"
+        />
         <img
           className="absolute top-[790px] left-[41px] w-5 h-5"
           alt=""
@@ -110,14 +118,15 @@ const MilitarySection: FunctionComponent = () => {
           alt=""
           src="/ellipse-13.svg"
         />
-        <div className="absolute top-[280px] left-[calc(50%_-_367px)] box-border w-0.5 h-[390px] border-r-[2px] border-solid border-silver-400" />
+        <div className="absolute top-[281px] left-[calc(50%_-_366px)] box-border w-0.5 h-[386px] border-r-[2px] border-solid border-gray-400" />
+        
         <img
-          className="absolute top-[675px] left-[calc(50%_-_366px)] w-0.5 h-[114.5px]"
+          className="absolute top-[685px] left-[calc(50%_-_366px)] w-0.5 h-[107.5px]"
           alt=""
           src="/line-7.svg"
         />
         <img
-          className="absolute top-[802px] left-[calc(50%_-_366px)] w-0.5 h-[114.5px]"
+          className="absolute top-[809px] left-[calc(50%_-_366px)] w-0.5 h-[109.5px]"
           alt=""
           src="/line-7.svg"
         />
