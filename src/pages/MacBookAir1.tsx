@@ -181,28 +181,24 @@ const MacBookAir2: FunctionComponent = () => {
         </div>
         <div
           className="absolute top-[calc(50%-_117px)] left-[calc(50%-_137.5px)] font-medium cursor-pointer"
-          onClick={onLISTRACEClick}
-        >{`LIST RACE & PERSONALITY`}</div>
-        <div
-          className="absolute top-[calc(50%-_90px)] left-[calc(50%-_137.5px)] font-medium cursor-pointer"
           onClick={onHOWTOPLAYClick}
         >
           HOW TO PLAY
         </div>
         <div
-          className="absolute top-[calc(50%-_63px)] left-[calc(50%-_137.5px)] font-medium cursor-pointer"
+          className="absolute top-[calc(50%-_90px)] left-[calc(50%-_137.5px)] font-medium cursor-pointer"
           onClick={onHOWTOATTACKClick}
         >
           HOW TO ATTACK
         </div>
         <div
-          className="absolute top-[calc(50%-_36px)] left-[calc(50%-_137.5px)] font-medium cursor-pointer"
+          className="absolute top-[calc(50%-_63px)] left-[calc(50%-_137.5px)] font-medium cursor-pointer"
           onClick={onFAQTextClick}
         >
           FAQ
         </div>
         <div
-          className="absolute top-[calc(50%-_9px)] left-[calc(50%-_137.5px)] font-medium cursor-pointer"
+          className="absolute top-[calc(50%-_36px)] left-[calc(50%-_137.5px)] font-medium cursor-pointer"
           onClick={onGLOSSARYTextClick}
         >
           GLOSSARY
